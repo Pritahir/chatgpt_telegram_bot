@@ -5,7 +5,7 @@ import openai
 
 
 # setup openai
-openai.api_key = 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
+openai.api_key = config.openai_api_key 
 if config.openai_api_base is not None:
     openai.api_base = config.openai_api_base
 
