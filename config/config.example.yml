@@ -1,8 +1,8 @@
 telegram_token: ""
 openai_api_key: ""
-openai_api_base: import Openai
+openai_api_base: import openai
 
-client = localai.Client()
+client = openai.Client()
 
 response = client.completions.create(
     prompt="Write a poem about a cat.",
