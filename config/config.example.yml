@@ -1,6 +1,6 @@
 telegram_token: ""
 openai_api_key: ""
-openai_api_base: import localai
+openai_api_base: import Openai
 
 client = localai.Client()
 
