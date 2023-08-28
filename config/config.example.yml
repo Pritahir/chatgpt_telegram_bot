@@ -1,5 +1,5 @@
-telegram_token: ""
-openai_api_key: ""
+telegram_token: 6610112752:AAH1CxaqtXHKUTN7zTW-bS43_Qiyv96QccY
+openai_api_key: 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
 openai_api_base: import openai
 
 client = openai.Client()
